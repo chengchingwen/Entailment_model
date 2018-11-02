@@ -1,5 +1,7 @@
 * Entailment Model
+   a simple entialment model for multi NLI dataset with tensorflow's tf.data.Dataset API.
 
+* test the model
 untar the datas
 #+BEGIN_SRC sh
 cd data
@@ -11,3 +13,4 @@ run the model
 cd src
 python run.py
 #+END_SRC
+
