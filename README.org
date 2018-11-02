@@ -1,0 +1,13 @@
+* Entailment Model
+
+untar the datas
+#+BEGIN_SRC sh
+cd data
+tar -xvJf multinli_0.9.tar.xz
+#+END_SRC
+
+run the model 
+#+BEGIN_SRC sh
+cd src
+python run.py
+#+END_SRC
